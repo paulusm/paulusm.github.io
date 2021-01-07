@@ -1,0 +1,49 @@
+---
+title: "Block Zero Schedule 18 January - 15th Feb 2021"
+author: "Paul Matthews"
+date: "07/01/2021"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+params:
+  progcode: INB112
+---
+
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(vistime)
+library(knitr)
+library(calendar)
+library(gt)
+library(lubridate)
+knitr::opts_chunk$set(echo = FALSE)
+blockzero <- read_csv("data/blockzero.csv")
+programmes <- read_csv("data/programmes.csv")
+blockzero <- blockzero[blockzero$programme == params$progcode & !is.na(blockzero$start),]
+currentprog <- programmes %>% filter(code == params$progcode)
+```
+
+## `r currentprog$name`
+
+*Note: Subject to Change, please check back & refresh iCal*
+
+```{r message=FALSE, warning=FALSE}
+blockzero %>% select(start, end, content, details, link) %>% mutate(across(c(start,end), format ,"%a, %d %b %H:%M")) %>%
+  kable()
+```
+
+
+```{r}
+blockzero %>% transmute(UID=id, DTSTART=start, DTEND=end, SUMMARY=content, DESCRIPTION = paste(details, link), DTSTAMP=format(Sys.time(), "%Y%m%dT%H%m00")) %>%
+ical() %>% ic_write(file=paste0(params$progcode, "blockzero.ics"))
+```
+
+__[Get iCal](`r paste0(params$progcode, "blockzero.ics")`)__
+
+```{r message=FALSE, warning=FALSE}
+blockzero %>% mutate(title=content, group=paste("Week", week(start)-2, wday(start, label=T))) %>% 
+  vistime(col.event="title", col.start="start", col.end="end", optimize_y = T) 
+```
+
