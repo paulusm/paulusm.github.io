@@ -41,8 +41,8 @@ ical() %>% ic_write(file=paste0(params$progcode, "blockzero.ics"))
 
 __[Get iCal](`r paste0(params$progcode, "blockzero.ics")`)__
 
-```{r message=FALSE, warning=FALSE}
+```{r eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 blockzero %>% mutate(title=content, group=paste("Week", week(start)-2, wday(start, label=T))) %>% 
-  vistime(col.event="title", col.start="start", col.end="end", optimize_y = T) 
+  gg_vistime(col.event="title", col.start="start", col.end="end", optimize_y = T) 
 ```
 
