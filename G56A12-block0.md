@@ -1,6 +1,6 @@
 # MSc Information Technology
 
-## Block Zero Schedule, 18 January - 15th Feb 2021
+## Block Zero Schedule : 18 January - 15th Feb 2021
 
 *Note: Subject to Change, please check back & refresh iCal*
 
