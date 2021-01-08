@@ -3,7 +3,9 @@ render_report = function(coursecode) {
     "Block0Sessions.Rmd", params = list(
       progcode = coursecode
     ),
-    output_file = paste0(coursecode, "-block0.html")
+    output_format = "md_document",
+    output_options = list(variant="gfm"),
+    output_file = paste0(coursecode, "-block0.md")
   )
 }
 
