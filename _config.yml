@@ -2,4 +2,6 @@
 theme: jekyll-theme-midnight
 title: Paul Matthews GitHub Pages
 description: Teaching and Research Snippets
-show_downloads: "false"
+show_downloads: false
+github:
+  is_project_page: false
