@@ -24,7 +24,9 @@ blockzero <- blockzero[blockzero$programme == params$progcode & !is.na(blockzero
 currentprog <- programmes %>% filter(code == params$progcode)
 ```
 
-## `r currentprog$name`
+# `r currentprog$name`
+
+## Block Zero Schedule 18 January - 15th Feb 2021
 
 *Note: Subject to Change, please check back & refresh iCal*
 

@@ -1,4 +1,6 @@
-## MSc Data Science
+# MSc Data Science
+
+## Block Zero Schedule 18 January - 15th Feb 2021
 
 *Note: Subject to Change, please check back & refresh iCal*
 
