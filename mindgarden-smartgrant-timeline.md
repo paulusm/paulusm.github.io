@@ -2,10 +2,6 @@
 
 ![](mindgarden-smartgrant-timeline_files/figure-gfm/timelinechart-1.png)<!-- -->
 
-``` r
-tldata %>% select(group, event, details) %>% kable()
-```
-
 | group                  | event                       | details                                                      |
 |:-----------------------|:----------------------------|:-------------------------------------------------------------|
 | Platform development   | Authoring environment       | Tools for interactive multimedia development and device APIs |
