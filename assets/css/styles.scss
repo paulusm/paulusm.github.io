@@ -3,5 +3,6 @@
 
 @import "{{ site.theme }}";
 
-container:
+wrapper{
   max-width: 80%;
+}
