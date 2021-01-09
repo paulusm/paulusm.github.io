@@ -14,9 +14,8 @@ library(vistime)
 tldata <- read_csv('data/smartgrant.csv')
 ```
 
-![
+
 ```{r timelinechart, echo=FALSE, fig.height=8, fig.width=10, warning=FALSE}
 grps <- data.frame(id=unique(tldata$group),content=unique(tldata$group))
 tldata %>% gg_vistime()
 ```
-]('figure-gfm/timelinechart-1.png')
