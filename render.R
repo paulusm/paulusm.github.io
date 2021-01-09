@@ -12,3 +12,13 @@ render_report = function(coursecode) {
 render_report("INB112")
 
 render_report("G56A12")
+
+
+# SmartGrant
+
+rmarkdown::render(
+  "SmartGrant.Rmd",
+  output_format = "md_document",
+  output_options = list(variant="gfm"),
+  output_file = "mindgargen-smartgrant-timeline.md"
+)
