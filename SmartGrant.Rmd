@@ -10,6 +10,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
+library(knitr)
 library(vistime)
 tldata <- read_csv('data/smartgrant.csv')
 ```
@@ -19,3 +20,8 @@ tldata <- read_csv('data/smartgrant.csv')
 grps <- data.frame(id=unique(tldata$group),content=unique(tldata$group))
 tldata %>% gg_vistime()
 ```
+
+```{r}
+tldata %>% select(group, event, details) %>% kable()
+```
+
