@@ -21,7 +21,7 @@ grps <- data.frame(id=unique(tldata$group),content=unique(tldata$group))
 tldata %>% gg_vistime()
 ```
 
-```{r}
+```{r echo=FALSE}
 tldata %>% select(group, event, details) %>% kable()
 ```
 
