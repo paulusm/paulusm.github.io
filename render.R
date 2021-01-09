@@ -20,5 +20,5 @@ rmarkdown::render(
   "SmartGrant.Rmd",
   output_format = "md_document",
   output_options = list(variant="gfm"),
-  output_file = "mindgargen-smartgrant-timeline.md"
+  output_file = "mindgarden-smartgrant-timeline.md"
 )

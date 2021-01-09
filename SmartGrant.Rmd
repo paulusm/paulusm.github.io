@@ -14,8 +14,8 @@ library(vistime)
 tldata <- read_csv('data/smartgrant.csv')
 ```
 
-```{r echo=FALSE, warning=FALSE}
+```{r timeline, echo=FALSE, fig.height=8, fig.width=10, warning=FALSE}
 grps <- data.frame(id=unique(tldata$group),content=unique(tldata$group))
-tldata %>% vistime()
+tldata %>% gg_vistime()
 ```
 
