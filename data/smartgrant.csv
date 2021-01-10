@@ -5,7 +5,8 @@ id,group,event,details,start,end,type
 4,Research,Micropayment mechanisms,Best approaches to creator reimbursement,2021-05-01,2021-09-30,range
 5,Research,Evidence-based tendering,Integrating science with content requirements,2021-05-01,2022-03-01,range
 99,Community mobilisation,Testing and feedback,Trials of content tools and payment systems,2021-11-01,2022-05-01,range
-100,Marketing and sales,Digital marketing campaign,Social media and search marketing ,2022-04-01,2022-05-31,range
-101,Marketing and sales,Sales capacity,Sale of private and insitutional subscriptions,2022-05-01,2022-05-31,range
+100,Management,Digital marketing campaign,Social media and search marketing ,2022-04-01,2022-05-31,range
+103,Management,Project management,"Work package coordinaton, resourcing, monitoring and reporting",2021-05-01,2022-05-31,range
+101,Management,Sales capacity,Sale of private and insitutional subscriptions,2022-05-01,2022-05-31,range
 6,Community mobilisation,Recruiting initial creators,Identification of power users in community,2021-06-01,2021-08-15,range
-#VALUE!,Community mobilisation,Participative Design,Contultation and user design,2021-08-01,2021-10-01,range
+44,Community mobilisation,Participative Design,Contultation and user design,2021-08-01,2021-10-01,range
