@@ -6,6 +6,7 @@ import pandas as pd
 import seaborn as sns
 import datetime
 import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 sns.set_style('whitegrid')
 
 ```
@@ -27,6 +28,14 @@ print(articles.dtypes)
     tags         object
     dtype: object
 
+
+
+```python
+
+plt.rcParams['figure.figsize'] = (20,10)
+plt.rcParams["axes.labelsize"] = 16
+sns.set_context("talk")
+```
 
 
 ```python
@@ -213,22 +222,38 @@ This is misleading as it looks like that any article with tags edited was added 
 
 
 ```python
-fig, h = plt.subplots(figsize = (18,9))
+#fig, h = plt.subplots(figsize = (18,9))
 h = sns.histplot(data=articles, x='yearmonth', color='purple', binwidth=10, stat='count')
 #h.setp(plot.get_xticklabels(), rotation=90)
-h
+
 ```
 
 
+    
+![svg](pocket-analysis_files/pocket-analysis_9_0.svg)
+    
 
 
-    <AxesSubplot:xlabel='yearmonth', ylabel='Count'>
+## Burn Through
+
+This is how I progressed once I decided to attack the backlog in summer 2020 and set up [PocketRAR](https://github.com/danielskowronski/pocket.rar) to give me random articles from the collection.
 
 
+```python
+#fig, b = plt.subplots(figsize = (18,9))
+pocketrar['day'] = pd.to_datetime(pocketrar['dateadded']).dt.strftime('%Y-%m-%d')
+prmeans = pocketrar.groupby('day').mean('cumulative')
+b = sns.lineplot(data=prmeans, x='day', y = 'cumulative', color='purple', linewidth = 3)
+b.xaxis.set_major_locator(ticker.MultipleLocator(14))
+#b.fig.autofmt_xdate()
+#b.setp(pd.get_xticklabels(), rotation=90)
+
+
+```
 
 
     
-![svg](pocket-analysis_files/pocket-analysis_8_1.svg)
+![svg](pocket-analysis_files/pocket-analysis_11_0.svg)
     
 
 
