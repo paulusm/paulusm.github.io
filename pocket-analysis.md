@@ -7,6 +7,9 @@ import seaborn as sns
 import datetime
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
+import numpy
+import itertools
+import networkx as nx
 sns.set_style('whitegrid')
 
 ```
@@ -256,6 +259,86 @@ b.xaxis.set_major_locator(ticker.MultipleLocator(14))
 ![svg](pocket-analysis_files/pocket-analysis_11_0.svg)
     
 
+
+## Tags and Tag Network
+
+
+```python
+alltags = {}
+tagpairs = {}
+for i, row in articles.iterrows():
+    tagset = row['tags']
+    if tagset is not numpy.nan:
+        tagset = tagset.split(',')
+        for tag in tagset:
+            if tag in alltags.keys():
+                alltags[tag] = alltags[tag] + 1
+            else:
+                alltags[tag] = 1
+        tagpairscmb = itertools.combinations(tagset,2)
+        for tagpair in tagpairscmb:
+            if tagpair in tagpairs.keys():
+                tagpairs[tagpair] =  tagpairs[tagpair] +1
+            else:
+                tagpairs[tagpair] = 1
+        
+
+print(len(alltags), ' unique tags')
+print(len(tagpairs), ' pairs')
+```
+
+    498  unique tags
+    1313  pairs
+
+
+
+```python
+alltagsorted = sorted(alltags, key=alltags.__getitem__, reverse=True)
+for i in range(0,6):
+    print(alltagsorted[i], alltags[alltagsorted[i]])
+```
+
+    ux 88
+    data science 65
+    ai 51
+    philosophy 49
+    psychology 44
+    science 43
+
+
+
+```python
+alltagpairssorted = sorted(tagpairs, key=tagpairs.__getitem__, reverse=True)
+for i in range(0,6):
+    print(alltagpairssorted[i], tagpairs[alltagpairssorted[i]])
+```
+
+    ('data science', 'talisable') 12
+    ('smws', 'social media') 9
+    ('algorithms', 'bias') 8
+    ('self-improvement', 'sketchnotable') 8
+    ('deep learning', 'ml') 7
+    ('nlp', 'text mining') 6
+
+
+
+```python
+tagsG = nx.Graph()
+tagnodes_export = [(k ,{'weight':v}) for k, v in alltags.items()]
+#print(tagnodes_export)
+tagsG.add_nodes_from(tagnodes_export)
+tagpairs_export = [k + (v,) for k, v in tagpairs.items()]
+tagsG.add_weighted_edges_from(tagpairs_export)
+#print(tagpairs_export)
+print(f'Nodes: {tagsG.number_of_nodes()}, Edges: {tagsG.size()}')
+nx.write_gexf(tagsG, "data/tags.gexf")
+
+```
+
+    Nodes: 498, Edges: 1313
+
+
+![taggraph](pocket-analysis_files/taggraph.svg)
 
 
 ```python
