@@ -4206,1052 +4206,1052 @@
                 stroke-opacity="0.3" stroke-width="1.0"/>
     </g>
     <g id="node-labels">
-        <text font-size="31" x="-127.73053" y="-96.97531" fill="#000000"
+        <text font-size="31" x="-127.73053" y="-96.97531" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_ai">
             ai
         </text>
-        <text font-size="18" x="147.20387" y="30.944065" fill="#000000"
+        <text font-size="18" x="147.20387" y="30.944065" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_cognition">
             cognition
         </text>
-        <text font-size="7" x="114.47015" y="-57.23889" fill="#000000"
+        <text font-size="7" x="114.47015" y="-57.23889" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_extended_mind">
             extended mind
         </text>
-        <text font-size="9" x="-53.176865" y="54.6286" fill="#000000"
+        <text font-size="9" x="-53.176865" y="54.6286" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_hci">
             hci
         </text>
-        <text font-size="13" x="-182.55946" y="-64.67364" fill="#000000"
+        <text font-size="13" x="-182.55946" y="-64.67364" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_machine_learning">
             machine learning
         </text>
-        <text font-size="11" x="105.08721" y="-97.14622" fill="#000000"
+        <text font-size="11" x="105.08721" y="-97.14622" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_re-read">
             re-read
         </text>
-        <text font-size="7" x="-193.36458" y="-216.57523" fill="#000000"
+        <text font-size="7" x="-193.36458" y="-216.57523" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_reinforcement_learning">
             reinforcement learning
         </text>
-        <text font-size="16" x="-214.86957" y="-183.67029" fill="#000000"
+        <text font-size="16" x="-214.86957" y="-183.67029" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_dataviz">
             dataviz
         </text>
-        <text font-size="17" x="-277.28366" y="-139.31012" fill="#000000"
+        <text font-size="17" x="-277.28366" y="-139.31012" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_deep_learning">
             deep learning
         </text>
-        <text font-size="7" x="-297.1502" y="-199.68045" fill="#000000"
+        <text font-size="7" x="-297.1502" y="-199.68045" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_interpretability">
             interpretability
         </text>
-        <text font-size="7" x="-328.54446" y="-232.34268" fill="#000000"
+        <text font-size="7" x="-328.54446" y="-232.34268" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_visualisation">
             visualisation
         </text>
-        <text font-size="13" x="-338.0356" y="-3.1070848" fill="#000000"
+        <text font-size="13" x="-338.0356" y="-3.1070848" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_ir">
             ir
         </text>
-        <text font-size="12" x="-358.01373" y="-146.96564" fill="#000000"
+        <text font-size="12" x="-358.01373" y="-146.96564" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_nlp">
             nlp
         </text>
-        <text font-size="11" x="-360.35645" y="-182.56506" fill="#000000"
+        <text font-size="11" x="-360.35645" y="-182.56506" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_text_mining">
             text mining
         </text>
-        <text font-size="12" x="49.13313" y="269.6" fill="#000000"
+        <text font-size="12" x="49.13313" y="269.6" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_writers">
             writers
         </text>
-        <text font-size="16" x="-240.14897" y="198.33142" fill="#000000"
+        <text font-size="16" x="-240.14897" y="198.33142" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_dev">
             dev
         </text>
-        <text font-size="7" x="-312.32285" y="290.80377" fill="#000000"
+        <text font-size="7" x="-312.32285" y="290.80377" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_web_technology">
             web technology
         </text>
-        <text font-size="6" x="-269.78717" y="-256.27383" fill="#000000"
+        <text font-size="6" x="-269.78717" y="-256.27383" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_deliberation">
             deliberation
         </text>
-        <text font-size="7" x="-229.94203" y="-158.24228" fill="#000000"
+        <text font-size="7" x="-229.94203" y="-158.24228" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_explainable">
             explainable
         </text>
-        <text font-size="15" x="-62.19797" y="3.5099046" fill="#000000"
+        <text font-size="15" x="-62.19797" y="3.5099046" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_big_data">
             big data
         </text>
-        <text font-size="38" x="-142.76453" y="-20.394606" fill="#000000"
+        <text font-size="38" x="-142.76453" y="-20.394606" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_data_science">
             data science
         </text>
-        <text font-size="50" x="-123.99734" y="108.26007" fill="#000000"
+        <text font-size="50" x="-123.99734" y="108.26007" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_ux">
             ux
         </text>
-        <text font-size="23" x="-241.76978" y="-113.821" fill="#000000"
+        <text font-size="23" x="-241.76978" y="-113.821" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_r">
             r
         </text>
-        <text font-size="9" x="-2.7936993" y="64.24916" fill="#000000"
+        <text font-size="9" x="-2.7936993" y="64.24916" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_analytics">
             analytics
         </text>
-        <text font-size="17" x="-74.783646" y="-94.86081" fill="#000000"
+        <text font-size="17" x="-74.783646" y="-94.86081" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_bias">
             bias
         </text>
-        <text font-size="27" x="104.687096" y="3.435608" fill="#000000"
+        <text font-size="27" x="104.687096" y="3.435608" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_psychology">
             psychology
         </text>
-        <text font-size="12" x="183.34431" y="184.58305" fill="#000000"
+        <text font-size="12" x="183.34431" y="184.58305" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_lis">
             lis
         </text>
-        <text font-size="11" x="67.035904" y="-20.811712" fill="#000000"
+        <text font-size="11" x="67.035904" y="-20.811712" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_behaviour">
             behaviour
         </text>
-        <text font-size="10" x="140.08316" y="-144.48566" fill="#000000"
+        <text font-size="10" x="140.08316" y="-144.48566" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_brain">
             brain
         </text>
-        <text font-size="11" x="69.43866" y="-131.18143" fill="#000000"
+        <text font-size="11" x="69.43866" y="-131.18143" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_neuroscience">
             neuroscience
         </text>
-        <text font-size="11" x="-385.79767" y="-254.57895" fill="#000000"
+        <text font-size="11" x="-385.79767" y="-254.57895" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_knowledge_graphs">
             knowledge graphs
         </text>
-        <text font-size="8" x="-290.06424" y="-385.00235" fill="#000000"
+        <text font-size="8" x="-290.06424" y="-385.00235" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_semweb">
             semweb
         </text>
-        <text font-size="15" x="-264.8367" y="15.144964" fill="#000000"
+        <text font-size="15" x="-264.8367" y="15.144964" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_data">
             data
         </text>
-        <text font-size="10" x="-254.9603" y="136.54033" fill="#000000"
+        <text font-size="10" x="-254.9603" y="136.54033" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_development">
             development
         </text>
-        <text font-size="23" x="144.26102" y="250.14967" fill="#000000"
+        <text font-size="23" x="144.26102" y="250.14967" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_academia">
             academia
         </text>
-        <text font-size="10" x="230.79227" y="108.33436" fill="#000000"
+        <text font-size="10" x="230.79227" y="108.33436" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_epistemology">
             epistemology
         </text>
-        <text font-size="7" x="-59.14924" y="-413.5562" fill="#000000"
+        <text font-size="7" x="-59.14924" y="-413.5562" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_archiving">
             archiving
         </text>
-        <text font-size="9" x="-92.930695" y="-315.88242" fill="#000000"
+        <text font-size="9" x="-92.930695" y="-315.88242" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_dh">
             dh
         </text>
-        <text font-size="7" x="185.51909" y="-182.71805" fill="#000000"
+        <text font-size="7" x="185.51909" y="-182.71805" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_memes">
             memes
         </text>
-        <text font-size="6" x="325.97354" y="302.6397" fill="#000000"
+        <text font-size="6" x="325.97354" y="302.6397" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_conferences">
             conferences
         </text>
-        <text font-size="6" x="281.40326" y="288.1366" fill="#000000"
+        <text font-size="6" x="281.40326" y="288.1366" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_peer_review">
             peer review
         </text>
-        <text font-size="27" x="272.59015" y="95.548935" fill="#000000"
+        <text font-size="27" x="272.59015" y="95.548935" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_science">
             science
         </text>
-        <text font-size="9" x="171.77983" y="313.2734" fill="#000000"
+        <text font-size="9" x="171.77983" y="313.2734" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_critical_thinking">
             critical thinking
         </text>
-        <text font-size="8" x="3.22713" y="280.66312" fill="#000000"
+        <text font-size="8" x="3.22713" y="280.66312" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_moocs">
             moocs
         </text>
-        <text font-size="16" x="161.63274" y="-80.697784" fill="#000000"
+        <text font-size="16" x="161.63274" y="-80.697784" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_smws">
             smws
         </text>
-        <text font-size="8" x="437.1451" y="-2.6813629" fill="#000000"
+        <text font-size="8" x="437.1451" y="-2.6813629" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_social_machines">
             social machines
         </text>
-        <text font-size="8" x="-157.65515" y="-182.26138" fill="#000000"
+        <text font-size="8" x="-157.65515" y="-182.26138" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_fintech">
             fintech
         </text>
-        <text font-size="11" x="-298.09055" y="70.041306" fill="#000000"
+        <text font-size="11" x="-298.09055" y="70.041306" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_search">
             search
         </text>
-        <text font-size="9" x="-279.04373" y="-50.492905" fill="#000000"
+        <text font-size="9" x="-279.04373" y="-50.492905" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_ia">
             ia
         </text>
-        <text font-size="9" x="-246.3452" y="-80.82619" fill="#000000"
+        <text font-size="9" x="-246.3452" y="-80.82619" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_tools">
             tools
         </text>
-        <text font-size="23" x="186.86755" y="-40.58335" fill="#000000"
+        <text font-size="23" x="186.86755" y="-40.58335" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_social_media">
             social media
         </text>
-        <text font-size="25" x="-19.14014" y="-40.38997" fill="#000000"
+        <text font-size="25" x="-19.14014" y="-40.38997" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_talisable">
             talisable
         </text>
-        <text font-size="9" x="-34.454563" y="-334.08545" fill="#000000"
+        <text font-size="9" x="-34.454563" y="-334.08545" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_bots">
             bots
         </text>
-        <text font-size="10" x="66.095146" y="-206.51549" fill="#000000"
+        <text font-size="10" x="66.095146" y="-206.51549" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_fake_news">
             fake news
         </text>
-        <text font-size="14" x="416.87015" y="-55.914867" fill="#000000"
+        <text font-size="14" x="416.87015" y="-55.914867" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_online_community">
             online community
         </text>
-        <text font-size="8" x="-119.4181" y="-199.35704" fill="#000000"
+        <text font-size="8" x="-119.4181" y="-199.35704" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_devops">
             devops
         </text>
-        <text font-size="22" x="-185.9983" y="-139.3072" fill="#000000"
+        <text font-size="22" x="-185.9983" y="-139.3072" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_ml">
             ml
         </text>
-        <text font-size="7" x="352.87305" y="63.62297" fill="#000000"
+        <text font-size="7" x="352.87305" y="63.62297" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_internet">
             internet
         </text>
-        <text font-size="9" x="149.02518" y="378.0143" fill="#000000"
+        <text font-size="9" x="149.02518" y="378.0143" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_health">
             health
         </text>
-        <text font-size="8" x="78.891" y="431.79318" fill="#000000"
+        <text font-size="8" x="78.891" y="431.79318" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_km">
             km
         </text>
-        <text font-size="19" x="25.73825" y="393.0234" fill="#000000"
+        <text font-size="19" x="25.73825" y="393.0234" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_pedagogy">
             pedagogy
         </text>
-        <text font-size="8" x="-41.462383" y="206.55011" fill="#000000"
+        <text font-size="8" x="-41.462383" y="206.55011" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_learning">
             learning
         </text>
-        <text font-size="16" x="55.943104" y="241.02116" fill="#000000"
+        <text font-size="16" x="55.943104" y="241.02116" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_writing">
             writing
         </text>
-        <text font-size="14" x="-53.55151" y="83.92331" fill="#000000"
+        <text font-size="14" x="-53.55151" y="83.92331" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_books">
             books
         </text>
-        <text font-size="10" x="56.84351" y="81.12991" fill="#000000"
+        <text font-size="10" x="56.84351" y="81.12991" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_reading-recs">
             reading-recs
         </text>
-        <text font-size="7" x="-143.83015" y="-156.17445" fill="#000000"
+        <text font-size="7" x="-143.83015" y="-156.17445" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_scalability">
             scalability
         </text>
-        <text font-size="14" x="2.8109686" y="-261.6426" fill="#000000"
+        <text font-size="14" x="2.8109686" y="-261.6426" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_gdpr">
             gdpr
         </text>
-        <text font-size="10" x="-338.6061" y="-107.638664" fill="#000000"
+        <text font-size="10" x="-338.6061" y="-107.638664" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_topic-modelling">
             topic-modelling
         </text>
-        <text font-size="18" x="-89.11246" y="-135.33698" fill="#000000"
+        <text font-size="18" x="-89.11246" y="-135.33698" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_algorithms">
             algorithms
         </text>
-        <text font-size="12" x="-77.43603" y="154.72937" fill="#000000"
+        <text font-size="12" x="-77.43603" y="154.72937" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_design">
             design
         </text>
-        <text font-size="14" x="26.243656" y="-242.5091" fill="#000000"
+        <text font-size="14" x="26.243656" y="-242.5091" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_privacy">
             privacy
         </text>
-        <text font-size="7" x="510.3303" y="-65.80863" fill="#000000"
+        <text font-size="7" x="510.3303" y="-65.80863" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_norms">
             norms
         </text>
-        <text font-size="8" x="193.24416" y="-305.4535" fill="#000000"
+        <text font-size="8" x="193.24416" y="-305.4535" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_consciousness">
             consciousness
         </text>
-        <text font-size="7" x="269.777" y="-272.164" fill="#000000"
+        <text font-size="7" x="269.777" y="-272.164" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_phenomenology">
             phenomenology
         </text>
-        <text font-size="7" x="-328.49887" y="-65.92702" fill="#000000"
+        <text font-size="7" x="-328.49887" y="-65.92702" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_language_models">
             language models
         </text>
-        <text font-size="7" x="54.530148" y="-369.26227" fill="#000000"
+        <text font-size="7" x="54.530148" y="-369.26227" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_decentralisation">
             decentralisation
         </text>
-        <text font-size="7" x="-116.76008" y="169.75734" fill="#000000"
+        <text font-size="7" x="-116.76008" y="169.75734" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_design_thinking">
             design thinking
         </text>
-        <text font-size="14" x="-192.43976" y="185.3983" fill="#000000"
+        <text font-size="14" x="-192.43976" y="185.3983" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_research">
             research
         </text>
-        <text font-size="11" x="187.29811" y="-151.37004" fill="#000000"
+        <text font-size="11" x="187.29811" y="-151.37004" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_politics">
             politics
         </text>
-        <text font-size="8" x="147.77962" y="-210.97102" fill="#000000"
+        <text font-size="8" x="147.77962" y="-210.97102" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_opendata">
             opendata
         </text>
-        <text font-size="8" x="18.077772" y="348.62463" fill="#000000"
+        <text font-size="8" x="18.077772" y="348.62463" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_infolit">
             infolit
         </text>
-        <text font-size="9" x="-166.52097" y="247.83307" fill="#000000"
+        <text font-size="9" x="-166.52097" y="247.83307" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_information_behaviour">
             information behaviour
         </text>
-        <text font-size="17" x="264.16367" y="30.714565" fill="#000000"
+        <text font-size="17" x="264.16367" y="30.714565" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_social_epistemology">
             social epistemology
         </text>
-        <text font-size="7" x="-103.93038" y="-430.27466" fill="#000000"
+        <text font-size="7" x="-103.93038" y="-430.27466" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_knowledge_organisation">
             knowledge organisation
         </text>
-        <text font-size="8" x="295.20508" y="211.87828" fill="#000000"
+        <text font-size="8" x="295.20508" y="211.87828" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_networks">
             networks
         </text>
-        <text font-size="17" x="29.449636" y="190.36115" fill="#000000"
+        <text font-size="17" x="29.449636" y="190.36115" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_libraries">
             libraries
         </text>
-        <text font-size="12" x="244.4032" y="-10.195655" fill="#000000"
+        <text font-size="12" x="244.4032" y="-10.195655" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_statistics">
             statistics
         </text>
-        <text font-size="7" x="169.08972" y="-120.88989" fill="#000000"
+        <text font-size="7" x="169.08972" y="-120.88989" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_complexity">
             complexity
         </text>
-        <text font-size="7" x="356.53" y="44.438972" fill="#000000"
+        <text font-size="7" x="356.53" y="44.438972" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_indigenous-knowledge">
             indigenous-knowledge
         </text>
-        <text font-size="7" x="214.62462" y="61.22027" fill="#000000"
+        <text font-size="7" x="214.62462" y="61.22027" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_interdisciplinarity">
             interdisciplinarity
         </text>
-        <text font-size="7" x="-102.588486" y="262.4591" fill="#000000"
+        <text font-size="7" x="-102.588486" y="262.4591" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_teaching">
             teaching
         </text>
-        <text font-size="14" x="129.0956" y="149.05052" fill="#000000"
+        <text font-size="14" x="129.0956" y="149.05052" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_self-improvement">
             self-improvement
         </text>
-        <text font-size="8" x="333.5649" y="242.10681" fill="#000000"
+        <text font-size="8" x="333.5649" y="242.10681" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_information_science">
             information science
         </text>
-        <text font-size="7" x="244.65501" y="143.38991" fill="#000000"
+        <text font-size="7" x="244.65501" y="143.38991" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_impact">
             impact
         </text>
-        <text font-size="8" x="288.16165" y="160.75385" fill="#000000"
+        <text font-size="8" x="288.16165" y="160.75385" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_knowledge">
             knowledge
         </text>
-        <text font-size="30" x="247.42484" y="-162.62973" fill="#000000"
+        <text font-size="30" x="247.42484" y="-162.62973" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_philosophy">
             philosophy
         </text>
-        <text font-size="7" x="-17.193838" y="-107.41121" fill="#000000"
+        <text font-size="7" x="-17.193838" y="-107.41121" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_probability">
             probability
         </text>
-        <text font-size="9" x="4.530296" y="-320.8372" fill="#000000"
+        <text font-size="9" x="4.530296" y="-320.8372" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_chatbots">
             chatbots
         </text>
-        <text font-size="8" x="101.03523" y="94.95086" fill="#000000"
+        <text font-size="8" x="101.03523" y="94.95086" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_scifi">
             scifi
         </text>
-        <text font-size="7" x="145.48071" y="411.2535" fill="#000000"
+        <text font-size="7" x="145.48071" y="411.2535" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_mobile">
             mobile
         </text>
-        <text font-size="7" x="408.571" y="-94.00888" fill="#000000"
+        <text font-size="7" x="408.571" y="-94.00888" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_biology">
             biology
         </text>
-        <text font-size="6" x="401.0206" y="-264.3901" fill="#000000"
+        <text font-size="6" x="401.0206" y="-264.3901" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_evolution">
             evolution
         </text>
-        <text font-size="7" x="263.41614" y="-210.68121" fill="#000000"
+        <text font-size="7" x="263.41614" y="-210.68121" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_mobiles">
             mobiles
         </text>
-        <text font-size="8" x="277.78998" y="-93.65611" fill="#000000"
+        <text font-size="8" x="277.78998" y="-93.65611" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_security">
             security
         </text>
-        <text font-size="6" x="274.0331" y="-27.846462" fill="#000000"
+        <text font-size="6" x="274.0331" y="-27.846462" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_citizen_science">
             citizen science
         </text>
-        <text font-size="8" x="368.25443" y="-120.75476" fill="#000000"
+        <text font-size="8" x="368.25443" y="-120.75476" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_crowdsourcing">
             crowdsourcing
         </text>
-        <text font-size="7" x="-226.12535" y="46.733074" fill="#000000"
+        <text font-size="7" x="-226.12535" y="46.733074" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_python">
             python
         </text>
-        <text font-size="10" x="-39.26454" y="-246.08574" fill="#000000"
+        <text font-size="10" x="-39.26454" y="-246.08574" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_metadata">
             metadata
         </text>
-        <text font-size="11" x="-136.52122" y="-255.27698" fill="#000000"
+        <text font-size="11" x="-136.52122" y="-255.27698" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_it">
             it
         </text>
-        <text font-size="10" x="35.693977" y="454.22784" fill="#000000"
+        <text font-size="10" x="35.693977" y="454.22784" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_e-learning">
             e-learning
         </text>
-        <text font-size="6" x="76.624435" y="595.0658" fill="#000000"
+        <text font-size="6" x="76.624435" y="595.0658" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_evidence">
             evidence
         </text>
-        <text font-size="6" x="222.942" y="328.79346" fill="#000000"
+        <text font-size="6" x="222.942" y="328.79346" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_productivity">
             productivity
         </text>
-        <text font-size="8" x="147.64725" y="198.88713" fill="#000000"
+        <text font-size="8" x="147.64725" y="198.88713" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_reading">
             reading
         </text>
-        <text font-size="8" x="-111.40108" y="40.20402" fill="#000000"
+        <text font-size="8" x="-111.40108" y="40.20402" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_methods">
             methods
         </text>
-        <text font-size="8" x="351.3377" y="159.10306" fill="#000000"
+        <text font-size="8" x="351.3377" y="159.10306" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_qna">
             qna
         </text>
-        <text font-size="8" x="113.433655" y="49.509132" fill="#000000"
+        <text font-size="8" x="113.433655" y="49.509132" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_empathy">
             empathy
         </text>
-        <text font-size="11" x="-78.43315" y="56.07479" fill="#000000"
+        <text font-size="11" x="-78.43315" y="56.07479" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_igp">
             igp
         </text>
-        <text font-size="7" x="159.77762" y="121.97166" fill="#000000"
+        <text font-size="7" x="159.77762" y="121.97166" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_bibliometrics">
             bibliometrics
         </text>
-        <text font-size="8" x="-65.08849" y="-265.32758" fill="#000000"
+        <text font-size="8" x="-65.08849" y="-265.32758" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_futurism">
             futurism
         </text>
-        <text font-size="6" x="-229.39893" y="-4.775668" fill="#000000"
+        <text font-size="6" x="-229.39893" y="-4.775668" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_cloud">
             cloud
         </text>
-        <text font-size="8" x="-325.23422" y="-300.10614" fill="#000000"
+        <text font-size="8" x="-325.23422" y="-300.10614" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_legaltech">
             legaltech
         </text>
-        <text font-size="11" x="203.18832" y="217.36902" fill="#000000"
+        <text font-size="11" x="203.18832" y="217.36902" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_publishing">
             publishing
         </text>
-        <text font-size="13" x="-21.912128" y="-176.53934" fill="#000000"
+        <text font-size="13" x="-21.912128" y="-176.53934" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_twitter">
             twitter
         </text>
-        <text font-size="7" x="-126.58432" y="309.85016" fill="#000000"
+        <text font-size="7" x="-126.58432" y="309.85016" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_games">
             games
         </text>
-        <text font-size="9" x="-328.9653" y="258.1991" fill="#000000"
+        <text font-size="9" x="-328.9653" y="258.1991" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_mobile_dev">
             mobile dev
         </text>
-        <text font-size="24" x="66.11299" y="164.94067" fill="#000000"
+        <text font-size="24" x="66.11299" y="164.94067" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_sketchnotable">
             sketchnotable
         </text>
-        <text font-size="14" x="-37.13862" y="-82.12167" fill="#000000"
+        <text font-size="14" x="-37.13862" y="-82.12167" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_ethics">
             ethics
         </text>
-        <text font-size="9" x="60.744755" y="-305.55182" fill="#000000"
+        <text font-size="9" x="60.744755" y="-305.55182" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_glams">
             glams
         </text>
-        <text font-size="8" x="43.59678" y="-163.90239" fill="#000000"
+        <text font-size="8" x="43.59678" y="-163.90239" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_ar">
             ar
         </text>
-        <text font-size="8" x="106.45153" y="-323.37274" fill="#000000"
+        <text font-size="8" x="106.45153" y="-323.37274" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_mentalhealth">
             mentalhealth
         </text>
-        <text font-size="7" x="86.18652" y="213.11588" fill="#000000"
+        <text font-size="7" x="86.18652" y="213.11588" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_sketchnoted">
             sketchnoted
         </text>
-        <text font-size="7" x="-56.915936" y="125.52933" fill="#000000"
+        <text font-size="7" x="-56.915936" y="125.52933" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_sociology">
             sociology
         </text>
-        <text font-size="6" x="422.5563" y="-210.9908" fill="#000000"
+        <text font-size="6" x="422.5563" y="-210.9908" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_anthropology">
             anthropology
         </text>
-        <text font-size="7" x="-386.38388" y="-377.1187" fill="#000000"
+        <text font-size="7" x="-386.38388" y="-377.1187" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_graph_databases">
             graph databases
         </text>
-        <text font-size="6" x="368.1035" y="113.35086" fill="#000000"
+        <text font-size="6" x="368.1035" y="113.35086" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_narrative">
             narrative
         </text>
-        <text font-size="6" x="55.07578" y="-276.48822" fill="#000000"
+        <text font-size="6" x="55.07578" y="-276.48822" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_consent">
             consent
         </text>
-        <text font-size="6" x="-212.88765" y="260.68713" fill="#000000"
+        <text font-size="6" x="-212.88765" y="260.68713" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_business">
             business
         </text>
-        <text font-size="7" x="-321.22336" y="103.64813" fill="#000000"
+        <text font-size="7" x="-321.22336" y="103.64813" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_language">
             language
         </text>
-        <text font-size="6" x="-157.407" y="392.21262" fill="#000000"
+        <text font-size="6" x="-157.407" y="392.21262" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_simulation">
             simulation
         </text>
-        <text font-size="7" x="26.155735" y="-190.88805" fill="#000000"
+        <text font-size="7" x="26.155735" y="-190.88805" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_factiness">
             factiness
         </text>
-        <text font-size="9" x="16.344643" y="13.020312" fill="#000000"
+        <text font-size="9" x="16.344643" y="13.020312" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_persuasion">
             persuasion
         </text>
-        <text font-size="6" x="382.776" y="12.103432" fill="#000000"
+        <text font-size="6" x="382.776" y="12.103432" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_replication">
             replication
         </text>
-        <text font-size="8" x="-177.78499" y="-110.48033" fill="#000000"
+        <text font-size="8" x="-177.78499" y="-110.48033" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_sentiment">
             sentiment
         </text>
-        <text font-size="7" x="154.63304" y="580.6261" fill="#000000"
+        <text font-size="7" x="154.63304" y="580.6261" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_climate_change">
             climate change
         </text>
-        <text font-size="14" x="-79.4539" y="-204.91061" fill="#000000"
+        <text font-size="14" x="-79.4539" y="-204.91061" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_ko">
             ko
         </text>
-        <text font-size="9" x="-188.60347" y="96.771454" fill="#000000"
+        <text font-size="9" x="-188.60347" y="96.771454" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_gleanly">
             gleanly
         </text>
-        <text font-size="6" x="-220.84288" y="151.89417" fill="#000000"
+        <text font-size="6" x="-220.84288" y="151.89417" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_repositories">
             repositories
         </text>
-        <text font-size="8" x="-121.52469" y="194.17671" fill="#000000"
+        <text font-size="8" x="-121.52469" y="194.17671" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_software">
             software
         </text>
-        <text font-size="7" x="144.66101" y="-373.97858" fill="#000000"
+        <text font-size="7" x="144.66101" y="-373.97858" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_history">
             history
         </text>
-        <text font-size="9" x="-188.0518" y="27.160507" fill="#000000"
+        <text font-size="9" x="-188.0518" y="27.160507" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_recommendation">
             recommendation
         </text>
-        <text font-size="6" x="-6.535673" y="97.88841" fill="#000000"
+        <text font-size="6" x="-6.535673" y="97.88841" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_compsci">
             compsci
         </text>
-        <text font-size="13" x="-250.76785" y="308.83118" fill="#000000"
+        <text font-size="13" x="-250.76785" y="308.83118" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_web_design">
             web design
         </text>
-        <text font-size="7" x="325.94403" y="-183.8411" fill="#000000"
+        <text font-size="7" x="325.94403" y="-183.8411" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_filter_bubble">
             filter bubble
         </text>
-        <text font-size="9" x="47.760166" y="315.18808" fill="#000000"
+        <text font-size="9" x="47.760166" y="315.18808" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_coding">
             coding
         </text>
-        <text font-size="7" x="-209.09494" y="-240.79532" fill="#000000"
+        <text font-size="7" x="-209.09494" y="-240.79532" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_digital_collections">
             digital collections
         </text>
-        <text font-size="6" x="-283.27075" y="120.01936" fill="#000000"
+        <text font-size="6" x="-283.27075" y="120.01936" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_video">
             video
         </text>
-        <text font-size="7" x="-392.81113" y="-17.580315" fill="#000000"
+        <text font-size="7" x="-392.81113" y="-17.580315" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_google">
             google
         </text>
-        <text font-size="6" x="359.7343" y="-41.77739" fill="#000000"
+        <text font-size="6" x="359.7343" y="-41.77739" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_society">
             society
         </text>
-        <text font-size="7" x="-6.382519" y="174.99576" fill="#000000"
+        <text font-size="7" x="-6.382519" y="174.99576" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_education">
             education
         </text>
-        <text font-size="7" x="-351.49243" y="199.98322" fill="#000000"
+        <text font-size="7" x="-351.49243" y="199.98322" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_open_data">
             open data
         </text>
-        <text font-size="11" x="72.94662" y="282.49103" fill="#000000"
+        <text font-size="11" x="72.94662" y="282.49103" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_il">
             il
         </text>
-        <text font-size="7" x="127.77416" y="-290.30554" fill="#000000"
+        <text font-size="7" x="127.77416" y="-290.30554" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_technology">
             technology
         </text>
-        <text font-size="8" x="-86.50863" y="-377.33255" fill="#000000"
+        <text font-size="8" x="-86.50863" y="-377.33255" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_preservation">
             preservation
         </text>
-        <text font-size="7" x="-278.10727" y="232.86012" fill="#000000"
+        <text font-size="7" x="-278.10727" y="232.86012" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_accessibility">
             accessibility
         </text>
-        <text font-size="6" x="-385.08133" y="151.46231" fill="#000000"
+        <text font-size="6" x="-385.08133" y="151.46231" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_copyright">
             copyright
         </text>
-        <text font-size="5" x="-409.34134" y="192.03441" fill="#000000"
+        <text font-size="5" x="-409.34134" y="192.03441" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_ip">
             ip
         </text>
-        <text font-size="6" x="450.286" y="-127.87759" fill="#000000"
+        <text font-size="6" x="450.286" y="-127.87759" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_abuse">
             abuse
         </text>
-        <text font-size="6" x="259.29926" y="-358.37714" fill="#000000"
+        <text font-size="6" x="259.29926" y="-358.37714" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_tech">
             tech
         </text>
-        <text font-size="8" x="193.73605" y="-247.48145" fill="#000000"
+        <text font-size="8" x="193.73605" y="-247.48145" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_web">
             web
         </text>
-        <text font-size="6" x="-28.350544" y="267.90668" fill="#000000"
+        <text font-size="6" x="-28.350544" y="267.90668" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_presenting">
             presenting
         </text>
-        <text font-size="7" x="-328.61975" y="323.5622" fill="#000000"
+        <text font-size="7" x="-328.61975" y="323.5622" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_javascript">
             javascript
         </text>
-        <text font-size="7" x="143.83815" y="345.21887" fill="#000000"
+        <text font-size="7" x="143.83815" y="345.21887" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_epistemics">
             epistemics
         </text>
-        <text font-size="8" x="44.494747" y="292.96783" fill="#000000"
+        <text font-size="8" x="44.494747" y="292.96783" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_woolf">
             woolf
         </text>
-        <text font-size="7" x="118.98498" y="-193.9326" fill="#000000"
+        <text font-size="7" x="118.98498" y="-193.9326" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_misinformation">
             misinformation
         </text>
-        <text font-size="6" x="-321.0662" y="-271.3679" fill="#000000"
+        <text font-size="6" x="-321.0662" y="-271.3679" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_bi">
             bi
         </text>
-        <text font-size="6" x="-126.70517" y="482.0525" fill="#000000"
+        <text font-size="6" x="-126.70517" y="482.0525" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_serious_games">
             serious games
         </text>
-        <text font-size="6" x="-352.81982" y="-451.57318" fill="#000000"
+        <text font-size="6" x="-352.81982" y="-451.57318" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_ontology">
             ontology
         </text>
-        <text font-size="6" x="107.28803" y="-228.0022" fill="#000000"
+        <text font-size="6" x="107.28803" y="-228.0022" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_collective_intelligence">
             collective intelligence
         </text>
-        <text font-size="7" x="340.8644" y="272.9585" fill="#000000"
+        <text font-size="7" x="340.8644" y="272.9585" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_information">
             information
         </text>
-        <text font-size="8" x="71.80041" y="-458.11694" fill="#000000"
+        <text font-size="8" x="71.80041" y="-458.11694" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_blockchain">
             blockchain
         </text>
-        <text font-size="8" x="375.9578" y="-76.34448" fill="#000000"
+        <text font-size="8" x="375.9578" y="-76.34448" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_social_psychology">
             social psychology
         </text>
-        <text font-size="6" x="45.408688" y="-118.715294" fill="#000000"
+        <text font-size="6" x="45.408688" y="-118.715294" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_belief">
             belief
         </text>
-        <text font-size="7" x="-360.4521" y="-32.81613" fill="#000000"
+        <text font-size="7" x="-360.4521" y="-32.81613" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_maths">
             maths
         </text>
-        <text font-size="6" x="106.065994" y="416.8894" fill="#000000"
+        <text font-size="6" x="106.065994" y="416.8894" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_ibl">
             ibl
         </text>
-        <text font-size="6" x="-303.45447" y="215.94003" fill="#000000"
+        <text font-size="6" x="-303.45447" y="215.94003" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_agile">
             agile
         </text>
-        <text font-size="6" x="324.78494" y="-14.545799" fill="#000000"
+        <text font-size="6" x="324.78494" y="-14.545799" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_causation">
             causation
         </text>
-        <text font-size="7" x="107.877106" y="296.64166" fill="#000000"
+        <text font-size="7" x="107.877106" y="296.64166" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_speaking">
             speaking
         </text>
-        <text font-size="6" x="-374.69177" y="-50.06229" fill="#000000"
+        <text font-size="6" x="-374.69177" y="-50.06229" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_transparency">
             transparency
         </text>
-        <text font-size="6" x="-88.32194" y="-232.05075" fill="#000000"
+        <text font-size="6" x="-88.32194" y="-232.05075" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_infrastructure">
             infrastructure
         </text>
-        <text font-size="6" x="413.12903" y="-141.34058" fill="#000000"
+        <text font-size="6" x="413.12903" y="-141.34058" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_moderation">
             moderation
         </text>
-        <text font-size="6" x="-303.7483" y="8.81515" fill="#000000"
+        <text font-size="6" x="-303.7483" y="8.81515" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_genre">
             genre
         </text>
-        <text font-size="7" x="-43.94118" y="311.90906" fill="#000000"
+        <text font-size="7" x="-43.94118" y="311.90906" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_apps">
             apps
         </text>
-        <text font-size="6" x="-21.00089" y="353.8948" fill="#000000"
+        <text font-size="6" x="-21.00089" y="353.8948" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_pbl">
             pbl
         </text>
-        <text font-size="6" x="-2.1904514" y="-152.5595" fill="#000000"
+        <text font-size="6" x="-2.1904514" y="-152.5595" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_opinion">
             opinion
         </text>
-        <text font-size="7" x="0.4536532" y="222.6914" fill="#000000"
+        <text font-size="7" x="0.4536532" y="222.6914" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_creativity">
             creativity
         </text>
-        <text font-size="7" x="66.49418" y="-75.91207" fill="#000000"
+        <text font-size="7" x="66.49418" y="-75.91207" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_perception">
             perception
         </text>
-        <text font-size="6" x="136.91762" y="-266.38364" fill="#000000"
+        <text font-size="6" x="136.91762" y="-266.38364" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_surveillance">
             surveillance
         </text>
-        <text font-size="6" x="568.8455" y="-118.24263" fill="#000000"
+        <text font-size="6" x="568.8455" y="-118.24263" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_governance">
             governance
         </text>
-        <text font-size="5" x="573.53143" y="-101.2144" fill="#000000"
+        <text font-size="5" x="573.53143" y="-101.2144" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_mechanical_turk">
             mechanical turk
         </text>
-        <text font-size="6" x="-47.546597" y="-362.1772" fill="#000000"
+        <text font-size="6" x="-47.546597" y="-362.1772" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_robotics">
             robotics
         </text>
-        <text font-size="6" x="-247.63533" y="80.67317" fill="#000000"
+        <text font-size="6" x="-247.63533" y="80.67317" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_fiction">
             fiction
         </text>
-        <text font-size="5" x="390.86935" y="-15.272972" fill="#000000"
+        <text font-size="5" x="390.86935" y="-15.272972" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_ssmws">
             ssmws
         </text>
-        <text font-size="5" x="-88.77667" y="-46.769363" fill="#000000"
+        <text font-size="5" x="-88.77667" y="-46.769363" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_critique">
             critique
         </text>
-        <text font-size="5" x="105.265976" y="361.49713" fill="#000000"
+        <text font-size="5" x="105.265976" y="361.49713" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_lecturing">
             lecturing
         </text>
-        <text font-size="6" x="-14.5361" y="509.19232" fill="#000000"
+        <text font-size="6" x="-14.5361" y="509.19232" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_digital">
             digital
         </text>
-        <text font-size="5" x="-115.166084" y="-280.3039" fill="#000000"
+        <text font-size="5" x="-115.166084" y="-280.3039" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_manipulation">
             manipulation
         </text>
-        <text font-size="6" x="-142.07343" y="278.25555" fill="#000000"
+        <text font-size="6" x="-142.07343" y="278.25555" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_government">
             government
         </text>
-        <text font-size="5" x="196.3033" y="444.71802" fill="#000000"
+        <text font-size="5" x="196.3033" y="444.71802" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_region">
             region
         </text>
-        <text font-size="5" x="-418.30847" y="-124.48719" fill="#000000"
+        <text font-size="5" x="-418.30847" y="-124.48719" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_documents">
             documents
         </text>
-        <text font-size="5" x="-416.9119" y="-94.58253" fill="#000000"
+        <text font-size="5" x="-416.9119" y="-94.58253" fill="#ededeb"
               style="text-anchor: middle; dominant-baseline: central;"
               font-family="Avenir" class="id_extraction">
             extraction
