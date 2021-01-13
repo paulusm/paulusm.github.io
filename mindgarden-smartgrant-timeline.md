@@ -1,6 +1,10 @@
+---
+output: pdf_document
+classoption: landscape
+---
 # Mindgarden SmartGrant Project Plan
 
-![](mindgarden-smartgrant-timeline_files/figure-gfm/timelinechart-1.png)<!-- -->
+![](mindgarden-smartgrant-timeline_files/figure-gfm/timelinechart-1.png)
 
 | group                  | event                       | details                                                        |
 |:-----------------------|:----------------------------|:---------------------------------------------------------------|
