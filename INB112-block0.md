@@ -4,13 +4,26 @@
 
 *Note: Subject to Change, please check back & refresh iCal*
 
-| start             | end               | content                | details                                                          | link |
-|:------------------|:------------------|:-----------------------|:-----------------------------------------------------------------|:-----|
-| Wed, 20 Jan 14:00 | Wed, 20 Jan 16:00 | Programme Introduction | Programme overview and key information, staff and student intros | NA   |
-| Tue, 26 Jan 14:00 | Tue, 26 Jan 16:30 | Programme Session      | IT setup, Mini challenges                                        | NA   |
-| Wed, 27 Jan 14:00 | Wed, 27 Jan 16:30 | Project Introduction   | Master’s Project Overview & topic discussion                     | NA   |
-| Tue, 02 Feb 14:00 | Tue, 02 Feb 16:30 | Social Session         | TBA                                                              | NA   |
-| Wed, 03 Feb 13:00 | Wed, 03 Feb 14:30 | DSAI Insight Talk      | Choose Your Own Career – Mango Solutions                         | NA   |
-| Wed, 03 Feb 15:00 | Wed, 03 Feb 16:30 | Programme Session      | Mini-Challenge Follow up                                         | NA   |
+The online sessions will use Blackboard Collaborate. Guest access will
+be enabled, so you won’t have to login with UWE credentials if you don’t
+have them yet. See [the guidance pages for support and introduction
+information](https://info.uwe.ac.uk/online/blackboard/students/guides/).
+Collaborate will work best on a PC with a Broadband connection and
+webcam.
+
+*All times in GMT, UK*
+
+| start             | end               | content                | details                                                          | link                                                                                                                                                                                                                                                                                    |
+|:------------------|:------------------|:-----------------------|:-----------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Wed, 20 Jan 14:00 | Wed, 20 Jan 16:00 | Programme Introduction | Programme overview and key information, staff and student intros | <https://ca.bbcollab.com/guest/c3636b68f21f48bfa462841b3889f6bb>                                                                                                                                                                                                                        |
+| Tue, 26 Jan 14:00 | Tue, 26 Jan 16:30 | Programme Session      | IT setup, Mini challenges                                        | <https://ca.bbcollab.com/guest/6441f526241d44ee97b318ea95d9f1a3>                                                                                                                                                                                                                        |
+| Wed, 27 Jan 14:00 | Wed, 27 Jan 16:30 | Project Introduction   | Master’s Project Overview & topic discussion                     | <https://ca.bbcollab.com/guest/09b794cb303442ba8a01ca15b0ab87ec>                                                                                                                                                                                                                        |
+| Tue, 02 Feb 14:00 | Tue, 02 Feb 16:30 | Social Session         | Various Fun Things                                               | <https://ca.bbcollab.com/guest/6c00fb967f644094823268d1000f7e6d>                                                                                                                                                                                                                        |
+| Wed, 03 Feb 13:00 | Wed, 03 Feb 14:30 | DSAI Insight Talk      | Choose Your Own Career – Mango Solutions                         | <https://www.eventbrite.co.uk/e/ds-ai-insight-talks-tickets-124544252211>                                                                                                                                                                                                               |
+| Wed, 03 Feb 15:00 | Wed, 03 Feb 16:30 | Programme Session      | Mini-Challenge Follow up                                         | <https://ca.bbcollab.com/guest/9f4d579efb1f4426b312c9dc2e102290>                                                                                                                                                                                                                        |
+| Mon, 25 Jan 14:00 | Mon, 25 Jan 15:00 | Library Session        | Good Academic Practice                                           | TBC                                                                                                                                                                                                                                                                                     |
+| Fri, 29 Jan 14:00 | Fri, 29 Jan 15:00 | Library Session        | Managing Your Time                                               | TBC                                                                                                                                                                                                                                                                                     |
+| Tue, 19 Jan 13:00 | Tue, 19 Jan 14:00 | Inspire: Me Lecture    | Dr Aida Abzhaparova (optional)                                   | <https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjRmODE5NzctN2VkYy00NjBkLWFiOGQtOTg5MmQzYWM2ZTlm%40thread.v2/0?context=%7b%22Tid%22%3a%2207ef1208-413c-4b5e-9cdd-64ef305754f0%22%2c%22Oid%22%3a%2220d34c23-100f-4939-8db0-a6becbc38b3a%22%2c%22IsBroadcastMeeting%22%3atrue%7d> |
+| Thu, 28 Jan 13:00 | Tue, 19 Jan 14:00 | Inspire: Me Lecture    | Ravin Singh (optional)                                           | <https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODU1NmZjZTktM2RmNS00NzhhLThjMTktODNjOGIyMjI1YTY4%40thread.v2/0?context=%7b%22Tid%22%3a%2207ef1208-413c-4b5e-9cdd-64ef305754f0%22%2c%22Oid%22%3a%2220d34c23-100f-4939-8db0-a6becbc38b3a%22%2c%22IsBroadcastMeeting%22%3atrue%7d> |
 
 **[Get iCal](INB112blockzero.ics)**

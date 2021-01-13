@@ -19,7 +19,7 @@ library(lubridate)
 knitr::opts_chunk$set(echo = FALSE)
 blockzero <- read_csv("data/blockzero.csv")
 programmes <- read_csv("data/programmes.csv")
-blockzero <- blockzero[blockzero$programme == params$progcode & !is.na(blockzero$start),]
+blockzero <- blockzero[(blockzero$programme == params$progcode | blockzero$programme == 'GEN') & !is.na(blockzero$start),]
 currentprog <- programmes %>% filter(code == params$progcode)
 ```
 
@@ -28,6 +28,10 @@ currentprog <- programmes %>% filter(code == params$progcode)
 ## Block Zero Schedule : 18 January - 5th Feb 2021
 
 *Note: Subject to Change, please check back & refresh iCal*
+
+The online sessions will use Blackboard Collaborate. Guest access will be enabled, so you won't have to login with UWE credentials if you don't have them yet.  See [the guidance pages for support and introduction information](https://info.uwe.ac.uk/online/blackboard/students/guides/). Collaborate will work best on a PC with a Broadband connection and webcam.
+
+*All times in GMT, UK*
 
 ```{r message=FALSE, warning=FALSE}
 blockzero %>% select(start, end, content, details, link) %>% mutate(across(c(start,end), format ,"%a, %d %b %H:%M")) %>%
