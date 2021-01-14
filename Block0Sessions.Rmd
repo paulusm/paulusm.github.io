@@ -34,7 +34,8 @@ The online sessions will use Blackboard Collaborate. Guest access will be enable
 *All times in GMT, UK*
 
 ```{r message=FALSE, warning=FALSE}
-blockzero %>% select(start, end, content, details, link) %>% mutate(across(c(start,end), format ,"%a, %d %b %H:%M")) %>%
+blockzero %>% select(start, end, content, details, link) %>% arrange(start) %>% 
+  mutate(across(c(start,end), format ,"%a, %d %b %H:%M")) %>%
   mutate(link = paste0("[Join online session](", link, ")")) %>% 
   kable()
 ```
