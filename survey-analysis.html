@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>DLP Survey Analysis</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">DLP Survey Analysis</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+</section>
+<section id="overall-agreement-disagreement-with-likert-statements" class="level1">
+<h1>Overall Agreement / Disagreement with Likert Statements</h1>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="survey-analysis_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="1344"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="survey-analysis_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="1344"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="survey-analysis_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="1344"></p>
+</div>
+</div>
+</section>
+<section id="confidence-differences-by-experience-gender" class="level1">
+<h1>Confidence differences by experience, gender</h1>
+<section id="correlation-between-likerts-and-years-of-experience" class="level2">
+<h2 class="anchored" data-anchor-id="correlation-between-likerts-and-years-of-experience">Correlation between likerts and years of experience</h2>
+<div class="cell">
+<div class="cell-output-display">
+
+<div id="mectsfqhsw" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#mectsfqhsw table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#mectsfqhsw thead, #mectsfqhsw tbody, #mectsfqhsw tfoot, #mectsfqhsw tr, #mectsfqhsw td, #mectsfqhsw th {
+  border-style: none;
+}
+
+#mectsfqhsw p {
+  margin: 0;
+  padding: 0;
+}
+
+#mectsfqhsw .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#mectsfqhsw .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#mectsfqhsw .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#mectsfqhsw .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#mectsfqhsw .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#mectsfqhsw .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#mectsfqhsw .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#mectsfqhsw .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#mectsfqhsw .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#mectsfqhsw .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#mectsfqhsw .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#mectsfqhsw .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#mectsfqhsw .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#mectsfqhsw .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#mectsfqhsw .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#mectsfqhsw .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#mectsfqhsw .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#mectsfqhsw .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#mectsfqhsw .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mectsfqhsw .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#mectsfqhsw .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#mectsfqhsw .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#mectsfqhsw .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mectsfqhsw .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#mectsfqhsw .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#mectsfqhsw .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#mectsfqhsw .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mectsfqhsw .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#mectsfqhsw .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#mectsfqhsw .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#mectsfqhsw .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#mectsfqhsw .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#mectsfqhsw .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mectsfqhsw .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#mectsfqhsw .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mectsfqhsw .gt_left {
+  text-align: left;
+}
+
+#mectsfqhsw .gt_center {
+  text-align: center;
+}
+
+#mectsfqhsw .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#mectsfqhsw .gt_font_normal {
+  font-weight: normal;
+}
+
+#mectsfqhsw .gt_font_bold {
+  font-weight: bold;
+}
+
+#mectsfqhsw .gt_font_italic {
+  font-style: italic;
+}
+
+#mectsfqhsw .gt_super {
+  font-size: 65%;
+}
+
+#mectsfqhsw .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#mectsfqhsw .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#mectsfqhsw .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#mectsfqhsw .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#mectsfqhsw .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#mectsfqhsw .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#mectsfqhsw .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <thead>
+    
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id=""></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="correlation">correlation</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="p value">p value</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><th id="stub_1_1" scope="row" class="gt_row gt_left gt_stub">identity patterns in student thinking (e.g., errors, misconceptions) </th>
+<td headers="stub_1_1 correlation" class="gt_row gt_right">0.49705640</td>
+<td headers="stub_1_1 p value" class="gt_row gt_right">0.07803872</td></tr>
+    <tr><th id="stub_1_2" scope="row" class="gt_row gt_left gt_stub">determine students’ level of achievement before instruction </th>
+<td headers="stub_1_2 correlation" class="gt_row gt_right">0.63675139</td>
+<td headers="stub_1_2 p value" class="gt_row gt_right">-0.05467134</td></tr>
+    <tr><th id="stub_1_3" scope="row" class="gt_row gt_left gt_stub">determine students’ level of achievement after instruction </th>
+<td headers="stub_1_3 correlation" class="gt_row gt_right">0.61029443</td>
+<td headers="stub_1_3 p value" class="gt_row gt_right">-0.05939393</td></tr>
+    <tr><th id="stub_1_4" scope="row" class="gt_row gt_left gt_stub">monitor students’ achievement growth/progress over time </th>
+<td headers="stub_1_4 correlation" class="gt_row gt_right">0.19685527</td>
+<td headers="stub_1_4 p value" class="gt_row gt_right">-0.14968287</td></tr>
+    <tr><th id="stub_1_5" scope="row" class="gt_row gt_left gt_stub">identify student strengths and weaknesses </th>
+<td headers="stub_1_5 correlation" class="gt_row gt_right">0.49555694</td>
+<td headers="stub_1_5 p value" class="gt_row gt_right">-0.07936498</td></tr>
+    <tr><th id="stub_1_6" scope="row" class="gt_row gt_left gt_stub">select appropriate instructional strategies </th>
+<td headers="stub_1_6 correlation" class="gt_row gt_right">0.43138420</td>
+<td headers="stub_1_6 p value" class="gt_row gt_right">-0.09158296</td></tr>
+    <tr><th id="stub_1_7" scope="row" class="gt_row gt_left gt_stub">select appropriate supplemental interventions </th>
+<td headers="stub_1_7 correlation" class="gt_row gt_right">0.83439517</td>
+<td headers="stub_1_7 p value" class="gt_row gt_right">-0.02438227</td></tr>
+    <tr><th id="stub_1_8" scope="row" class="gt_row gt_left gt_stub">plan/design lessons </th>
+<td headers="stub_1_8 correlation" class="gt_row gt_right">0.06671338</td>
+<td headers="stub_1_8 p value" class="gt_row gt_right">-0.21286753</td></tr>
+    <tr><th id="stub_1_9" scope="row" class="gt_row gt_left gt_stub">evaluate the effectiveness of your instruction (e.g., lessons, units) </th>
+<td headers="stub_1_9 correlation" class="gt_row gt_right">0.09356342</td>
+<td headers="stub_1_9 p value" class="gt_row gt_right">-0.19504239</td></tr>
+    <tr><th id="stub_1_10" scope="row" class="gt_row gt_left gt_stub">group students (either homogeneously or heterogeneously) </th>
+<td headers="stub_1_10 correlation" class="gt_row gt_right">0.78101782</td>
+<td headers="stub_1_10 p value" class="gt_row gt_right">-0.03263951</td></tr>
+    <tr><th id="stub_1_11" scope="row" class="gt_row gt_left gt_stub">identify reasons for poor student performance </th>
+<td headers="stub_1_11 correlation" class="gt_row gt_right">0.16352031</td>
+<td headers="stub_1_11 p value" class="gt_row gt_right">-0.16254569</td></tr>
+    <tr><th id="stub_1_12" scope="row" class="gt_row gt_left gt_stub">select assessments to administer </th>
+<td headers="stub_1_12 correlation" class="gt_row gt_right">0.36095229</td>
+<td headers="stub_1_12 p value" class="gt_row gt_right">-0.10698160</td></tr>
+    <tr><th id="stub_1_13" scope="row" class="gt_row gt_left gt_stub">identify students for more intensive intervention </th>
+<td headers="stub_1_13 correlation" class="gt_row gt_right">0.52612907</td>
+<td headers="stub_1_13 p value" class="gt_row gt_right">-0.07434679</td></tr>
+    <tr><th id="stub_1_14" scope="row" class="gt_row gt_left gt_stub">identify students for acceleration/enrichment </th>
+<td headers="stub_1_14 correlation" class="gt_row gt_right">0.32085197</td>
+<td headers="stub_1_14 p value" class="gt_row gt_right">-0.11619083</td></tr>
+    <tr><th id="stub_1_15" scope="row" class="gt_row gt_left gt_stub">identify students for individualized instruction </th>
+<td headers="stub_1_15 correlation" class="gt_row gt_right">0.15877813</td>
+<td headers="stub_1_15 p value" class="gt_row gt_right">-0.16550084</td></tr>
+    <tr><th id="stub_1_16" scope="row" class="gt_row gt_left gt_stub">identify next steps for instruction (e.g., move on, reteach) </th>
+<td headers="stub_1_16 correlation" class="gt_row gt_right">0.48227794</td>
+<td headers="stub_1_16 p value" class="gt_row gt_right">-0.08295195</td></tr>
+    <tr><th id="stub_1_17" scope="row" class="gt_row gt_left gt_stub">modify instruction or lessons plans for future students (e.g., activities, representations, materials) </th>
+<td headers="stub_1_17 correlation" class="gt_row gt_right">0.58815321</td>
+<td headers="stub_1_17 p value" class="gt_row gt_right">-0.06397435</td></tr>
+    <tr><th id="stub_1_18" scope="row" class="gt_row gt_left gt_stub">modify instruction or lesson plans for current students (e.g., activities, representations, materials) </th>
+<td headers="stub_1_18 correlation" class="gt_row gt_right">0.74301554</td>
+<td headers="stub_1_18 p value" class="gt_row gt_right">-0.03875879</td></tr>
+    <tr><th id="stub_1_19" scope="row" class="gt_row gt_left gt_stub">set student performance goals or targets </th>
+<td headers="stub_1_19 correlation" class="gt_row gt_right">0.92656496</td>
+<td headers="stub_1_19 p value" class="gt_row gt_right">-0.01089950</td></tr>
+    <tr><th id="stub_1_20" scope="row" class="gt_row gt_left gt_stub">select which content to teach </th>
+<td headers="stub_1_20 correlation" class="gt_row gt_right">0.05595453</td>
+<td headers="stub_1_20 p value" class="gt_row gt_right">-0.22318273</td></tr>
+    <tr><th id="stub_1_21" scope="row" class="gt_row gt_left gt_stub">differentiate instruction </th>
+<td headers="stub_1_21 correlation" class="gt_row gt_right">0.23322815</td>
+<td headers="stub_1_21 p value" class="gt_row gt_right">-0.14027876</td></tr>
+    <tr><th id="stub_1_22" scope="row" class="gt_row gt_left gt_stub">select scaffolds to provide </th>
+<td headers="stub_1_22 correlation" class="gt_row gt_right">0.32865670</td>
+<td headers="stub_1_22 p value" class="gt_row gt_right">-0.11594350</td></tr>
+    <tr><th id="stub_1_23" scope="row" class="gt_row gt_left gt_stub">identify student learning needs </th>
+<td headers="stub_1_23 correlation" class="gt_row gt_right">0.26467781</td>
+<td headers="stub_1_23 p value" class="gt_row gt_right">-0.13133631</td></tr>
+    <tr><th id="stub_1_24" scope="row" class="gt_row gt_left gt_stub">communicate student performance </th>
+<td headers="stub_1_24 correlation" class="gt_row gt_right">0.63669423</td>
+<td headers="stub_1_24 p value" class="gt_row gt_right">-0.05581415</td></tr>
+    <tr><th id="stub_1_25" scope="row" class="gt_row gt_left gt_stub">give feedback to students </th>
+<td headers="stub_1_25 correlation" class="gt_row gt_right">0.01683872</td>
+<td headers="stub_1_25 p value" class="gt_row gt_right">-0.27710901</td></tr>
+    <tr><th id="stub_1_26" scope="row" class="gt_row gt_left gt_stub">assign grades </th>
+<td headers="stub_1_26 correlation" class="gt_row gt_right">0.64946991</td>
+<td headers="stub_1_26 p value" class="gt_row gt_right">-0.05371065</td></tr>
+    <tr><th id="stub_1_27" scope="row" class="gt_row gt_left gt_stub">identify gaps in student knowledge</th>
+<td headers="stub_1_27 correlation" class="gt_row gt_right">0.15376149</td>
+<td headers="stub_1_27 p value" class="gt_row gt_right">-0.16748979</td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+
+<div id="ctbgjzovtj" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ctbgjzovtj table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#ctbgjzovtj thead, #ctbgjzovtj tbody, #ctbgjzovtj tfoot, #ctbgjzovtj tr, #ctbgjzovtj td, #ctbgjzovtj th {
+  border-style: none;
+}
+
+#ctbgjzovtj p {
+  margin: 0;
+  padding: 0;
+}
+
+#ctbgjzovtj .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#ctbgjzovtj .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#ctbgjzovtj .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#ctbgjzovtj .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#ctbgjzovtj .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ctbgjzovtj .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ctbgjzovtj .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ctbgjzovtj .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#ctbgjzovtj .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#ctbgjzovtj .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#ctbgjzovtj .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#ctbgjzovtj .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#ctbgjzovtj .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#ctbgjzovtj .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#ctbgjzovtj .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#ctbgjzovtj .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#ctbgjzovtj .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#ctbgjzovtj .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#ctbgjzovtj .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ctbgjzovtj .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#ctbgjzovtj .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#ctbgjzovtj .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#ctbgjzovtj .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ctbgjzovtj .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#ctbgjzovtj .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#ctbgjzovtj .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ctbgjzovtj .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ctbgjzovtj .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#ctbgjzovtj .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ctbgjzovtj .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#ctbgjzovtj .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ctbgjzovtj .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ctbgjzovtj .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ctbgjzovtj .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ctbgjzovtj .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ctbgjzovtj .gt_left {
+  text-align: left;
+}
+
+#ctbgjzovtj .gt_center {
+  text-align: center;
+}
+
+#ctbgjzovtj .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#ctbgjzovtj .gt_font_normal {
+  font-weight: normal;
+}
+
+#ctbgjzovtj .gt_font_bold {
+  font-weight: bold;
+}
+
+#ctbgjzovtj .gt_font_italic {
+  font-style: italic;
+}
+
+#ctbgjzovtj .gt_super {
+  font-size: 65%;
+}
+
+#ctbgjzovtj .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#ctbgjzovtj .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#ctbgjzovtj .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#ctbgjzovtj .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#ctbgjzovtj .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#ctbgjzovtj .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#ctbgjzovtj .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <thead>
+    
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id=""></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="correlation">correlation</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="p value">p value</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><th id="stub_1_1" scope="row" class="gt_row gt_left gt_stub">I am confident in my ability to access assessment results for my students</th>
+<td headers="stub_1_1 correlation" class="gt_row gt_right">0.83540931</td>
+<td headers="stub_1_1 p value" class="gt_row gt_right">0.025865548</td></tr>
+    <tr><th id="stub_1_2" scope="row" class="gt_row gt_left gt_stub">I am confident that I know what types of data or reports I need to assess group performance</th>
+<td headers="stub_1_2 correlation" class="gt_row gt_right">0.69156514</td>
+<td headers="stub_1_2 p value" class="gt_row gt_right">0.049368004</td></tr>
+    <tr><th id="stub_1_3" scope="row" class="gt_row gt_left gt_stub">I am confident that I know what types of data or reports I need to assess student performance</th>
+<td headers="stub_1_3 correlation" class="gt_row gt_right">0.52546471</td>
+<td headers="stub_1_3 p value" class="gt_row gt_right">0.079552207</td></tr>
+    <tr><th id="stub_1_4" scope="row" class="gt_row gt_left gt_stub">I am confident I can use the tools provided by my university data technology system to retrieve charts, tables or graphs for analysis</th>
+<td headers="stub_1_4 correlation" class="gt_row gt_right">0.65998469</td>
+<td headers="stub_1_4 p value" class="gt_row gt_right">0.054736286</td></tr>
+    <tr><th id="stub_1_5" scope="row" class="gt_row gt_left gt_stub">I am confident I can use the tools provided by my university data technology system to filter students into different groups for analysis</th>
+<td headers="stub_1_5 correlation" class="gt_row gt_right">0.04154901</td>
+<td headers="stub_1_5 p value" class="gt_row gt_right">0.249722193</td></tr>
+    <tr><th id="stub_1_6" scope="row" class="gt_row gt_left gt_stub">I am confident that I can use my university’s data analysis technology to access standard reports</th>
+<td headers="stub_1_6 correlation" class="gt_row gt_right">0.13587129</td>
+<td headers="stub_1_6 p value" class="gt_row gt_right">0.185518672</td></tr>
+    <tr><th id="stub_1_7" scope="row" class="gt_row gt_left gt_stub">I am confident in my ability to understand assessment reports</th>
+<td headers="stub_1_7 correlation" class="gt_row gt_right">0.55948185</td>
+<td headers="stub_1_7 p value" class="gt_row gt_right">0.073138702</td></tr>
+    <tr><th id="stub_1_8" scope="row" class="gt_row gt_left gt_stub">I am confident in my ability to interpret student performance from a scaled score</th>
+<td headers="stub_1_8 correlation" class="gt_row gt_right">0.52291574</td>
+<td headers="stub_1_8 p value" class="gt_row gt_right">0.080040895</td></tr>
+    <tr><th id="stub_1_9" scope="row" class="gt_row gt_left gt_stub">I am confident in my ability to interpret subtest or strand scores to determine student strengths and weaknesses in a content area</th>
+<td headers="stub_1_9 correlation" class="gt_row gt_right">0.96010537</td>
+<td headers="stub_1_9 p value" class="gt_row gt_right">-0.006277079</td></tr>
+    <tr><th id="stub_1_10" scope="row" class="gt_row gt_left gt_stub">I am confident that I can use data to identify students with special learning needs</th>
+<td headers="stub_1_10 correlation" class="gt_row gt_right">0.53546726</td>
+<td headers="stub_1_10 p value" class="gt_row gt_right">-0.077043411</td></tr>
+    <tr><th id="stub_1_11" scope="row" class="gt_row gt_left gt_stub">I am confident that I can use data to identify gaps in student understanding of curricular concepts</th>
+<td headers="stub_1_11 correlation" class="gt_row gt_right">0.66312177</td>
+<td headers="stub_1_11 p value" class="gt_row gt_right">-0.054198703</td></tr>
+    <tr><th id="stub_1_12" scope="row" class="gt_row gt_left gt_stub">I am confident that I can use assessment data to provide targeted feedback to students about their performance or progress</th>
+<td headers="stub_1_12 correlation" class="gt_row gt_right">0.55060033</td>
+<td headers="stub_1_12 p value" class="gt_row gt_right">-0.074214116</td></tr>
+    <tr><th id="stub_1_13" scope="row" class="gt_row gt_left gt_stub">I am confident I can use assessment data to identify gaps in my instructional curriculum</th>
+<td headers="stub_1_13 correlation" class="gt_row gt_right">0.47377402</td>
+<td headers="stub_1_13 p value" class="gt_row gt_right">-0.089017579</td></tr>
+    <tr><th id="stub_1_14" scope="row" class="gt_row gt_left gt_stub">I am confident that I can use data to group students with similar learning needs for instruction</th>
+<td headers="stub_1_14 correlation" class="gt_row gt_right">0.50722627</td>
+<td headers="stub_1_14 p value" class="gt_row gt_right">0.082431460</td></tr>
+    <tr><th id="stub_1_15" scope="row" class="gt_row gt_left gt_stub">I am confident in my ability to use data to guide my selection of targeted interventions for gaps in student understanding</th>
+<td headers="stub_1_15 correlation" class="gt_row gt_right">0.10858377</td>
+<td headers="stub_1_15 p value" class="gt_row gt_right">-0.197812201</td></tr>
+    <tr><th id="stub_1_16" scope="row" class="gt_row gt_left gt_stub">I am intimidated by statistics</th>
+<td headers="stub_1_16 correlation" class="gt_row gt_right">0.65651717</td>
+<td headers="stub_1_16 p value" class="gt_row gt_right">-0.055331660</td></tr>
+    <tr><th id="stub_1_17" scope="row" class="gt_row gt_left gt_stub">I am intimidated by the task of interpreting students’ state level standardized assessments</th>
+<td headers="stub_1_17 correlation" class="gt_row gt_right">0.34169221</td>
+<td headers="stub_1_17 p value" class="gt_row gt_right">-0.119835053</td></tr>
+    <tr><th id="stub_1_18" scope="row" class="gt_row gt_left gt_stub">I am concerned that I will feel or look ‘‘dumb’’ when it comes to data driven decision-making</th>
+<td headers="stub_1_18 correlation" class="gt_row gt_right">0.28462203</td>
+<td headers="stub_1_18 p value" class="gt_row gt_right">-0.132638066</td></tr>
+    <tr><th id="stub_1_19" scope="row" class="gt_row gt_left gt_stub">I am intimidated by my university’s data retrieval technology</th>
+<td headers="stub_1_19 correlation" class="gt_row gt_right">0.56896860</td>
+<td headers="stub_1_19 p value" class="gt_row gt_right">-0.070829644</td></tr>
+    <tr><th id="stub_1_20" scope="row" class="gt_row gt_left gt_stub">I am intimidated by the process of connecting data analysis to my instructional practice</th>
+<td headers="stub_1_20 correlation" class="gt_row gt_right">0.66543800</td>
+<td headers="stub_1_20 p value" class="gt_row gt_right">-0.053802419</td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
